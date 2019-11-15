@@ -7,7 +7,7 @@ if (!file_exists('token')) {
 
 include ("curl.php");
 echo "\n";
-echo "\e[94m          Voucher Claim Gojek           \n";
+echo "\e[94m          ~MORO SENENG TUYUL~           \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
 echo "\e[93m SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
 echo "\e[93m SCRIPT : AJIKERENCUY.com\n";
@@ -57,7 +57,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : GOFOODBOBA19 !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI08 !\n";
                 sleep(3);
                 goto next1;
             }
@@ -104,7 +104,7 @@ if ($register == false)
             pengen:
             $claim = cekvocer($verif);
             if ($claim == false ) {
-                echo "\033VOUCHER INVALID/GAGAL REDEEM\n";
+                echo "\033VANDA KURANG BERUNTUNG :(\n";
             }
             else{
                 echo "\e[92m[+] ".$claim."\n";
