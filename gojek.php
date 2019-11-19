@@ -7,11 +7,11 @@ if (!file_exists('token')) {
 
 include ("curl.php");
 echo "\n";
-echo "\e[94m          ~MORO SENENG TUYUL~           \n";
+echo "\e[94m          ~JANGAN SERAKAH YA COK!!! By : Ajie~           \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
 echo "\e[93m SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
-echo "\e[93m SCRIPT : AJIKERENCUY.com\n";
-echo "\e[93m Github: AJIKERENCUY \n";
+echo "\e[93m SCRIPT : AJITUKANGNUYUL:'(.com\n";
+echo "\e[93m Github: MAJIBAGUSF \n";
 echo "\n";
 echo "\e[96m[?] Masukkan Nomor HP Anda (62/1) : ";
 $nope = trim(fgets(STDIN));
